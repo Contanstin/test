@@ -1,0 +1,46 @@
+1 有当前用户名，请输入密码
+2 未找到当前用户名，是否要要创建
+4 密码错误，请重新输入用户名
+3 密码正确，更改login状态为true
+5 该线程不存在
+6 文件已上传
+7 是否要上传
+8 文件未上传至改线程
+9 正在下载10:50 2022/4/6
+
+ps -ef | grep java
+kill -9 进程
+
+java -cp lab3: Client //lab3 是文件夹名字 Client是javac编译后的类
+
+
+
+
+
+
+question:
+
+Client 默认Server 是localhost（127.0.0.1）
+DWN ，需要加入线程中吗
+是不是默认会有一个credentials.text在里面，还是说一开始要自己创建
+
+
+python3 DT_classifier.py < reviews.tsv > output.txt
+
+give cs9414 ass2 DT*.py BNB*.py MNB*.py my_classifier.py report.pdf
+
+docker run -d -p 80:80 -p 443:443 --name nginx --restart=always -e TZ="Asia/Shanghai" -v /root/nginx/html:/usr/share/nginx/html:ro -v /root/nginx/conf/nginx/nginx.conf:/etc/nginx/nginx.conf -v /root/nginx/conf/nginx/conf.d:/etc/nginx/conf.d:ro -v /root/nginx/log:/var/log/nginx nginx
+
+docker run -d -p 80:80 -p 443:443 --name nginx --restart=always -e TZ="Asia/Shanghai" -v /root/nginx/html:/usr/share/nginx/html:ro -v /root/nginx/conf/nginx:/etc/nginx/:ro -v /root/nginx/log:/var/log/nginx --privileged=true nginx
+docker run -d --name redis8.0 --restart=always -p 6379:6379 \
+-v /docker/redis/data:/data \
+-v /docker/redis/conf/redis.conf:/etc/redis/redis.conf \
+-d redis redis-server /etc/redis/redis.conf --requirepass "123456"
+
+
+
+git push -f origin master
+
+
+
+
